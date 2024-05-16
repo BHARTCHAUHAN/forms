@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT</title>
+    <style>
+        body {
+            background-image: url('darkimage.avif');
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h3 {
+            text-align: center;
+        }
+        form {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box; 
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            /* cursor: pointer; */
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .bhrt{
+            margin-left: 2
+        
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="alternate" scrollamount="20">
+        <img src="hello.png" height="20%" width="30%">
+    </marquee>
+    <h1>MIT</h1>
+    <div class="bhrt">
+    <h2>Massachusetts Institute of Technology</h2>
+    <p>
+        The Massachusetts Institute of Technology (MIT) is a private land-grant research university in Cambridge, Massachusetts. Established in 1861, MIT has played a significant role in the development of many areas of modern technology and science.
+        The Massachusetts Institute of Technology (MIT) is a private land-grant research university in Cambridge, Massachusetts. Established in 1861, MIT has played a significant role in the development of mhed in 1861, MIT has played a significant role in the development of many areas of modern technology and science.any areas of modern technology and science.
+    </p>
+</div>
+    <div class="container">
+        <h3>Input Your Details</h3>
+        <form>
+            <label for="firstName">Enter First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">Enter Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <label for="education">Enter Education:</label>
+            <input type="text" id="education" name="education" required>
+            <label for="country">Enter Country:</label>
+            <input type="text" id="country" name="country" required>
+            <label for="mobileNo">Enter Mobile No:</label>
+            <input type="text" id="mobileNo" name="mobileNo" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
